@@ -17,15 +17,21 @@
         body {
             background-color: rgb(0, 0, 33);
             color: white;
+            width: 100%;
             font-family: 'Poppins', sans-serif;
         }
-
+        nav, footer{
+            box-sizing: border-box;
+            width: 100%;
+        }
         nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
             height: 5rem;
+            width: 100%;
             background-color: rgb(18, 18, 62);
+            max-width: 80rem;
         }
 
         nav ul {
@@ -68,7 +74,8 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 4.375px 0;
+            margin: 4.375rem 0;
+            height: 40rem;
         }
 
         .firstSection>div {
@@ -93,17 +100,18 @@
         }
 
         .secondSection {
-            max-width: 80vw;
+            max-width: 80rem;
             margin: auto;
-            height: 100vh;
+            height: 55rem;
         }
 
         .secondSection .box {
             background: white;
-            width: 80vw;
+            width: 40rem;
             height: 0.03125rem;
-            margin: 1.25rem 0;
+            margin: 0rem 0;
             display: flex;
+            flex-direction: column;
         }
 
         .secondSection h1 {
@@ -111,24 +119,36 @@
         }
 
         .secondSection .vertical {
-            height: 5.8125rem;
+            /* height: 5.8125rem; */
+            /* height: 100rem; */
             width: 0.0625rem;
             background-color: white;
-            margin: 0 11.25rem;
+            /* margin: 0 11.25rem; */
+            margin: 0 6rem;
         }
 
         .vertical-title {
             position: relative;
-            top: 6.25rem;
-            width: 9.375rem;
+            /* top: 6.25rem; */
+            top: 3rem;
+            /* width: 9.375rem; */
+            width: 50rem;
+            padding: 1.5rem;
+            /* margin-bottom: 0.1rem; */
+            /* margin-top: 1rem; */
+
+            font-weight: bold;
+            text-underline-offset: 0.2rem;
         }
 
-        .vertical-desc {
+        /* .vertical-desc {
             position: relative;
-            top: 6.875rem;
-            color: grey;
-            width: 18.75rem;
-        }
+            /* top: 6.875rem; */
+            /* top: 10rem; */
+            /* color: grey; */
+            /* width: 18.75rem; */
+            /* width: 50rem; */
+        /* } */ 
 
         .textgray {
             color: grey;
@@ -183,7 +203,7 @@
         }
 
         .leftSection .btn {
-            padding: 8px;
+            padding: 0.5rem;
             background: rgb(0, 0, 33);
             color: white;
             /* border: 2px solid white; */
@@ -293,9 +313,8 @@
             <div class="box">
                 <div class="vertical">
                     <div class="vertical-title">
-                        Cisco Campus Ambassador
-                    </div>
-                    <div class="vertical-desc">
+                        <u>Cisco Campus Ambassador</u>
+                    
                         <li>
                             As a campus ambassador, I represented and promoted Cisco within my university community.
                         </li>
@@ -310,9 +329,8 @@
                 </div>
                 <div class="vertical">
                     <div class="vertical-title">
-                        Software Developer at Givetastic(Germany)
-                    </div>
-                    <div class="vertical-desc">
+                        
+                        <u>Software Developer at Givetastic(Germany)</u>
                           
                         <li>
                             As a software developer, my focus was on leveraging Docker for efficient deployment and management of applications.
@@ -327,9 +345,8 @@
                 </div>
                 <div class="vertical">
                     <div class="vertical-title">
-                        Intern at Akshay Embedded Systems
-                    </div>
-                    <div class="vertical-desc">
+                        
+                        <u>Intern at Akshay Embedded Systems</u>
                         <li>
                             Interning at Akshay Electronics involved working closely with a multidisciplinary team to design, test, and refine various components of the ventilator, ensuring its reliability and functionality.
                         </li>
