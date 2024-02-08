@@ -59,6 +59,11 @@
             font-size: 1.5rem;
         }
 
+        .footerleft {
+            font-size: 1.5rem;
+        }
+
+
         .firstSection {
             display: flex;
             justify-content: space-around;
@@ -90,7 +95,7 @@
         .secondSection {
             max-width: 80vw;
             margin: auto;
-            height: 80vh;
+            height: 100vh;
         }
 
         .secondSection .box {
@@ -122,17 +127,14 @@
             position: relative;
             top: 110px;
             color: grey;
-            width: 150px;
+            width: 300px;
         }
 
         .textgray {
             color: grey;
         }
 
-        footer {
-            background-color: #0e0e1a;
-
-        }
+       
 
         .footer {
             display: flex;
@@ -142,22 +144,22 @@
             align-items: center;
         }
 
-        footer div ul li{
+        /* footer div ul li{
             list-style: none;
             color: white;
             text-decoration: none;
-        }
+        } */
 
         /* main{
             height: 1200px;
         } */
-        .footer>div {
+        /* .footer>div {
             width: 223px;
             text-align: center;
             
-        }
+        } */
 
-        footer .footer-rights {
+        .footer-rights {
             text-align: center;
             color: white;
             padding: 12px 0;
@@ -175,9 +177,9 @@
             font-size: 1.17rem;
         }
        
-        .second:hover{
+        .footer .footerrt:hover{
             color: rgb(153, 153, 226);
-            font-size: 1.05rem;
+            font-size: 1rem;
         }
 
         .leftSection .btn {
@@ -199,15 +201,57 @@
             color: white;
         }
 
-        footer .footer-rights  {
+        .footer-rights  {
             text-decoration: none;
             color: white;
         }
 
+       
         
         div button a{
             color: white;
             text-decoration: none;
+        }
+        
+        .footer{
+            /* display: flex; */
+            justify-content: space-around;
+        }
+        /* .footer .footerrt ul{
+            display: flex;
+            color: white;
+            text-align: justify;
+            /* list-style: none; */
+            /* margin:  px; */
+            /* align-items: center; */
+            /* justify-content: space-around; */
+        /* } */ 
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 5px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        .footer ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer ul li a:hover {
+            color: rgb(153, 153, 226);
+            /* font-size: 1rem; */
         }
         
     </style>
@@ -252,7 +296,16 @@
                         Cisco Campus Ambassador
                     </div>
                     <div class="vertical-desc">
-                        Had the job of being the middlepoint of Cisco and college
+                        <li>
+                            As a campus ambassador, I represented and promoted Cisco within my university community.
+                        </li>
+                        <li>
+                            I engaged with fellow students, faculty, and staff, organized events, and utilized social media to increase awareness.
+                        </li>
+                        <li>
+                            My role involved assistance for recruiting, gathering feedback, and fostering relationships to advocate for Cisco's mission.
+                        </li>
+                          
                     </div>
                 </div>
                 <div class="vertical">
@@ -260,7 +313,16 @@
                         Software Developer at Givetastic(Germany)
                     </div>
                     <div class="vertical-desc">
-                        Worked predominantly on docker and ML algos
+                          
+                        <li>
+                            As a software developer, my focus was on leveraging Docker for efficient deployment and management of applications.
+                        </li>
+                        <li>
+                            Additionally, I worked on curating a comprehensive German dataset, ensuring its accuracy and relevance for the project.
+                        </li>
+                        <li>
+                            My responsibilities also included implementing machine learning algorithms to enhance the functionality and performance of the software solutions.
+                        </li>
                     </div>
                 </div>
                 <div class="vertical">
@@ -268,37 +330,36 @@
                         Intern at Akshay Embedded Systems
                     </div>
                     <div class="vertical-desc">
-                        Worked on ventilators and Scanner cards
+                        <li>
+                            Interning at Akshay Electronics involved working closely with a multidisciplinary team to design, test, and refine various components of the ventilator, ensuring its reliability and functionality.
+                        </li>
+                        <li>
+                            Additionally, I spearheaded a project focused on developing a human sensor system for elevators.
+                        </li>
+                        
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
+        
         <div class="footer">
-            <div class="first">
-                <h3>Poorva's developer Portfolio</h3>
-            </div>
-            <div class="second">
+            <div class="footerleft">Poorva's Portfolio</div>
+            <div class="footerrt">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                </ul>
-            </div>
-            <div class="third">
-                <ul>
                     <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
-            <div class="fourth">
-                <ul>
-                    <li><a href="contact.html">Contact me</a></li>
-                </ul>
-            </div>
+            
         </div>
-        <div class="footer-rights">
-            Copyright &#169; poorvasportfolio.githib.io | All rights reserved
-        </div>
+        
     </footer>
+    <div class="footer-rights">
+        Copyright &#169; poorvasportfolio.githib.io | All rights reserved
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
