@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poorva - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 70px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            height: 250px;
+        }
+
+        .rightSection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(154, 84, 220);
+        }
+
+        #element {
+            color: rgb(154, 84, 220);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 0.5px;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 180px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 100px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 110px;
+            color: grey;
+            width: 150px;
+        }
+
+        .textgray {
+            color: grey;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            text-align: center;
+            align-items: center;
+        }
+
+        footer div ul li{
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* main{
+            height: 1200px;
+        } */
+        .footer>div {
+            width: 223px;
+            text-align: center;
+            
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: white;
+            padding: 12px 0;
+            font-size: 15px;
+            background-color: #000000;
+            padding: 8px;
+        }
+
+        .leftSection .buttons {
+            padding: 60px 0;
+            color: white;
+        }
+        .leftSection .btn:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.17rem;
+        }
+       
+        .second:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .leftSection .btn {
+            padding: 8px;
+            background: rgb(0, 0, 33);
+            color: white;
+            /* border: 2px solid white; */
+            border-radius: 1px;
+            font-size: 19px;
+            cursor: pointer;
+        }
+        .leftSection .buttons .btn1{
+            padding: 8px;
+            background: rgb(0, 0, 33);
+            /* border: 2px solid white; */
+            border-radius: 1px;
+            font-size: 19px;
+            cursor: pointer;
+            color: white;
+        }
+
+        footer .footer-rights  {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+        div button a{
+            color: white;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Poorva's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Poorva</span>
+                <div>and I am passionate about</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn1"><a href="https://docs.google.com/document/d/1PP5FRYs3E6BKW0-9pO097c_G8GhLsk4zYHLz-sngzCo/edit?usp=drive_link">Download Resume</a></button>
+                    <button class="btn1"><a href="https://docs.google.com/document/d/1PP5FRYs3E6BKW0-9pO097c_G8GhLsk4zYHLz-sngzCo/edit?usp=drive_link">Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Cisco Campus Ambassador
+                    </div>
+                    <div class="vertical-desc">
+                        Had the job of being the middlepoint of Cisco and college
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Software Developer at Givetastic(Germany)
+                    </div>
+                    <div class="vertical-desc">
+                        Worked predominantly on docker and ML algos
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        Intern at Akshay Embedded Systems
+                    </div>
+                    <div class="vertical-desc">
+                        Worked on ventilators and Scanner cards
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Poorva's developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; poorvasportfolio.githib.io | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Data engineering', 'Software development'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
